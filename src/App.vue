@@ -1,18 +1,15 @@
 <template>
-  <h1>{{message}}</h1>
-
+  <HeaderComponent />
 </template>
 <script>
+import HeaderComponent from './components/HeaderComponent.vue';
 export default{
-  data(){
-    return{
-      message:"La mia prima app con Vite!"
-    }
-  }
+   
+        components: {
+           HeaderComponent,
+        }
 }
 </script>
 <style lang="css">
-h1{
-  color: blue;
-}
+
 </style>
